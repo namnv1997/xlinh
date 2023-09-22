@@ -316,4 +316,56 @@ video {
   user-select: none;
   z-index: 1000;
 }
+@media only screen and (max-width: 480px) {
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 27px;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  h2.line1 {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 23px;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  h2.line2 {
+    position: absolute;
+    top: 32%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    width: 100%;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  video {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: "Source Sans Pro";
+    font-size: 2em;
+    font-weight: 900;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 1000;
+  }
+}
 
